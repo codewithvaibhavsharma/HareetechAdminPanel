@@ -1,0 +1,9 @@
+.box-margin{
+    margin-left: 250px;
+}
+
+@media only screen and (max-width: 768px) {
+    .box-margin{
+        margin-left: 0px;
+    }
+  }

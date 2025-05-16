@@ -1,0 +1,16 @@
+.container-fluid {
+  padding-top: 30px;
+}
+
+.subTitle {
+  padding-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(16, 55, 87);
+}
+
+@media (max-width: 768px) {
+  .subTitle {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,21 @@
+.bg-navbar{
+  background-color: rgb(16, 55, 87);
+}
+
+.nav-logo{
+  margin-left:0;
+}
+
+.dropdown-item-1
+{
+  width: 50px;
+}
+.menu-navbar{
+  margin-right: 70px;
+}
+
+@media (max-width: 768px) {
+  .dropdown{
+    display: none;
+  }
+}

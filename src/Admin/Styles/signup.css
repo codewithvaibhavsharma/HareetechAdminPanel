@@ -1,0 +1,24 @@
+.text-color {
+  color:rgb(16, 55, 87);
+}
+
+.btn-text-color{
+  color:white;
+}
+.btn-bgcolor{
+  background-color: rgb(16, 55, 87);
+}
+.btn-bgcolor:hover{
+  background-color: rgb(23, 71, 110);
+  color:white;
+}
+.card-shadow{
+  box-shadow:3px 3px 30px #d7ab19;
+}
+.my-axis-5 {
+  margin-top: 3rem !important;
+  margin-bottom: 9rem !important;
+}
+
+
+

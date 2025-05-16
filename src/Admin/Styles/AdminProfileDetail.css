@@ -1,0 +1,52 @@
+/* Custom Styles */
+.card {
+  border-radius: 12px;
+  z-index: -1;
+  border-color: rgb(16, 55, 87);
+}
+
+.profile-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.profile-role {
+  font-size: 1rem;
+  opacity: 0.8;
+}
+
+.table td {
+  font-size: 1rem;
+}
+.btn-color{
+  background-color: rgb(16, 55, 87);
+  color: white;
+}
+
+.profile-picture {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border-color: rgb(16, 55, 87);
+  margin-bottom: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .card {
+    padding: 15px;
+  }
+
+  .profile-name {
+    font-size: 1.3rem;
+  }
+
+  .table td {
+    font-size: 0.9rem;
+  }
+
+  .btn-primary {
+    font-size: 0.9rem;
+  }
+}

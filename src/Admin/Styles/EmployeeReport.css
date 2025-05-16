@@ -1,0 +1,96 @@
+.employee-report-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  margin-left: 180px;
+  width: 70%;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 2px 3px 7px rgb(211, 211, 211);
+  margin-top: 50px;
+  overflow-x: auto; /* Allows horizontal scroll on smaller screens */
+  box-sizing: border-box;
+}
+
+/* Headline Styling */
+.emp-headline {
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-size: 1.75rem;
+  margin-bottom: 20px;
+}
+
+/* Table Styling */
+.employee-report-table {
+  width: 100%;
+  min-width: 800px; /* Prevents table from squishing on small screens */
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.employee-report-table th,
+.employee-report-table td {
+  border: 1px solid #ccc;
+  padding: 12px 15px;
+  text-align: center;
+  color: rgb(16, 55, 87);
+}
+
+/* Table Header Styling */
+.employee-report-table th {
+  background-color: rgb(16, 55, 87);
+  color: white;
+  font-weight: bold;
+}
+
+/* Row Hover */
+.employee-report-table tr:hover {
+  background-color: #f9f9f9;
+}
+
+/* Icon Styling */
+.employee-report-table td svg {
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.employee-report-table td svg:hover {
+  transform: scale(1.2);
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+  .employee-report-container {
+    margin-left: 0;
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  .emp-headline {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  .employee-report-table th,
+  .employee-report-table td {
+    padding: 10px;
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .emp-headline {
+    font-size: 1.4rem;
+  }
+
+  .employee-report-table {
+    min-width: unset;
+    font-size: 0.9rem;
+  }
+
+  .employee-report-table th,
+  .employee-report-table td {
+    padding: 8px;
+  }
+}

@@ -1,0 +1,76 @@
+/* Modal background */
+.modal.fade.show.d-block {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1050;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Modal header */
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Close button (X mark) */
+.btn-close {
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+}
+
+/* Modal title */
+.modal-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: rgb(16, 55, 87);
+}
+
+/* Input fields */
+.form-label {
+  font-weight: 500;
+  color: rgb(16, 55, 87);
+}
+
+.form-control {
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+/* Buttons */
+.modal-footer .btn {
+  font-size: 1rem;
+  padding: 10px 16px;
+  border-radius: 6px;
+}
+
+.btn-secondary {
+  background-color: rgb(235, 52, 52);
+  color: white;
+}
+
+.btn-secondary:hover {
+  background-color: rgb(246, 54, 54);
+}
+
+.btn-primary {
+  background-color: rgb(16, 55, 87);
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: rgb(21, 69, 108);
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .modal-dialog {
+    width: 90%;
+  }
+}

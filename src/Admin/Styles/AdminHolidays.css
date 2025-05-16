@@ -1,0 +1,25 @@
+.container-fluid {
+  padding-top: 30px;
+}
+
+.subTitle {
+  font-size: 22px;
+  font-weight: bold;
+  color: rgb(16, 55, 87);
+  padding-top: 20px;
+}
+
+.cardDistance {
+  margin-top: 20px;
+}
+
+.zindex{
+  z-index: -99;
+}
+
+@media (max-width: 768px) {
+  .subTitle {
+    font-size: 18px;
+    text-align: center;
+  }
+}

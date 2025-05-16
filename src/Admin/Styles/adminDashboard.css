@@ -1,0 +1,29 @@
+
+.dashboard-btn {
+  background-color: white;
+  color: rgb(16, 55, 87);
+  font-weight: bold;
+  border: 2px solid rgb(16, 55, 87);
+  display: flex;
+  justify-self: center;
+}
+
+.dashboard-btn:hover {
+  color:white;
+  background-color: rgb(16, 55, 87);
+}
+
+
+
+
+@media (min-width:768px) {
+  .card-centered{
+    justify-content: center;
+    margin-left: 50px;
+  }
+  
+}
+
+
+
+

@@ -1,0 +1,17 @@
+
+
+.text-color {
+  color:rgb(16, 55, 87);
+}
+
+.btn-text-color{
+  color:white;
+}
+
+.btn-bgcolor{
+  background-color: rgb(16, 55, 87);
+}
+.btn-bgcolor:hover{
+  background-color: rgb(23, 71, 110);
+  color:white;
+}

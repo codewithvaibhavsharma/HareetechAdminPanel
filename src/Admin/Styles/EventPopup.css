@@ -1,0 +1,104 @@
+/* Overlay for Popup */
+.popup-overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+/* Popup Container */
+.popup-container {
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 600px;
+  padding: 24px;
+  box-sizing: border-box;
+  margin-top: 60px;
+}
+
+/* Heading of Popup */
+.popup-heading {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+/* Form Layout */
+.popup-form {
+  display: grid;
+  gap: 12px;
+}
+
+/* Input Fields Styling */
+.popup-input {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+/* Button Container */
+.popup-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+/* General Button Styling */
+.popup-btn {
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+/* Cancel Button Styling */
+.popup-btn.cancel {
+  background-color: #ef2d2d;
+  color: #333;
+}
+
+.popup-btn.cancel:hover {
+  background-color: #f63e3e;
+}
+
+/* Submit Button Styling */
+.popup-btn.submit {
+  background-color: rgb(16, 55, 87);
+  color: white;
+}
+
+.popup-btn.submit:hover {
+  background-color: rgb(21, 71, 111);
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+  .popup-container {
+    max-width: 95%;
+    margin-top: 20px;
+  }
+
+  .popup-heading {
+    font-size: 1.3rem;
+  }
+
+  .popup-input {
+    padding: 8px 12px;
+  }
+
+  .popup-btn {
+    font-size: 0.9rem;
+  }
+}

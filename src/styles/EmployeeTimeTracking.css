@@ -1,0 +1,19 @@
+.btn-bg-color{
+  background-color: rgb(16, 55, 87);
+}
+
+
+.data-card{
+  margin-left: 150px;
+}
+
+.table-bg-color th{
+  background-color: rgb(16, 55, 87);
+  color: white;
+}
+
+@media only screen and (max-width: 480px) {
+  .data-card{
+    margin-left: 10px;
+  }
+}

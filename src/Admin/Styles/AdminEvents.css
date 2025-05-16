@@ -1,0 +1,42 @@
+.container-fluid {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.event-subHeading {
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(16, 55, 87);
+  padding-top: 50px;
+}
+
+.Admin-eventBtn {
+  height: 40px;
+  width: 200px;
+  background-color: rgb(16, 55, 87);
+  color: white;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+  padding-bottom: 40px;
+}
+
+.Admin-eventBtn:hover {
+  background-color: rgb(21, 70, 109);
+  color: white; 
+  
+}
+
+@media (max-width: 768px) {
+  .event-subHeading {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .Admin-eventBtn {
+    width: 100%;
+  }
+}

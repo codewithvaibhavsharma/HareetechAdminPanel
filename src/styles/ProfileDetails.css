@@ -1,0 +1,19 @@
+
+
+.td-text strong{
+  display: flex ;
+  flex-direction: 1;
+}
+
+.btn-bg-color{
+  background-color: rgb(16, 55, 87);
+  color: white;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.btn-bg-color:hover{
+  background-color: rgb(20, 69, 108);
+  color: white;
+}
+

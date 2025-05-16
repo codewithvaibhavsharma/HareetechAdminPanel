@@ -1,0 +1,18 @@
+.attendance {
+    padding: 20px;
+    background-color: #f4f4f4;
+    min-height: calc(100vh - 60px);
+    width: 1280px;
+    text-align: start;
+    justify-items: center;
+    margin-left: 200px;
+    transition: margin-left 0.3s ease-in-out;
+    
+  }
+  .subTitle{
+    padding-top: 30px;
+  }
+ .heading-text{
+  margin-left: 40px;
+  text-align: center;
+ }

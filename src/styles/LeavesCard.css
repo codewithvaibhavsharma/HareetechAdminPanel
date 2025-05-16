@@ -1,0 +1,17 @@
+.btn-bg-color{
+  background-color: rgb(16, 55, 87);
+  color: white;
+}
+
+.btn-bg-color:hover{
+  background-color: rgb(21, 68, 107);
+  color: white;
+}
+
+
+@media only screen and (max-width: 480px) {
+  .card-a{
+    margin: 0;
+    width: 100vw;
+  }
+}
